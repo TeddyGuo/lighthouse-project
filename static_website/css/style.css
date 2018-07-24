@@ -1,0 +1,348 @@
+html, body {
+width: 100%;
+height: 100%;
+}
+
+body {
+padding: 0px;
+margin: 0px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+background-color: #fff;
+}
+
+* {
+box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+margin: 0px;
+padding: 0px;
+}
+
+ul, ol {
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+
+a, a:hover, a:focus {
+margin: 0px;
+padding: 0px;
+text-decoration: none;
+}
+
+img {
+width: 100%;
+height: auto;
+display: block;
+}
+
+.container {
+    width: 85%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container h2
+{
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+section
+{
+    padding: 100px 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #222;
+    z-index: 100;
+}
+
+#logo {
+    float: left;
+}
+
+.nav {
+float: right;
+}
+
+.nav li {
+display: inline-block;
+}
+
+.nav li a {
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+    padding: 10px 12px;
+}
+
+.home_bg {
+    background-image: url(../image/profile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.overlay
+{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container_table
+{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 45%; /* Instead of using 50%, 45% is more appropriate for this website */
+}
+
+.container_table_cell h2
+{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 54px;
+}
+
+.social_icons a
+{
+    color: #fff;
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 19px;
+    margin-right: 7px;
+}
+
+.col-left, .col-right
+{
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.personal-info h3
+{
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    text-transform: capitalize;
+}
+
+.personal-info p
+{
+    color: #767676;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.skill
+{
+    margin: 30px auto;
+}
+
+.skill li
+{
+    font-size: 15px;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+
+.button-group .download_cv, .button-group .hire_me
+{
+    display: inline-block;
+}
+
+.button-group .download_cv
+{
+    margin-right: 18px;
+}
+
+.button-group a
+{
+    display: block;
+    color: #000;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 10px 38px;
+    text-transform: capitalize;
+}
+
+.button-group a:hover
+{
+    background: #000;
+    color: #fff;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+/* fuckingly vital one to learn */
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.my_service
+{
+    background: #f9f9f9;
+}
+
+.service-content
+{
+    float: left;
+    width: 33.333333333333333%;
+    padding: 0 15px;
+}
+
+.service-content i
+{
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.service-content h3
+{
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.service-content p
+{
+    color: #767676;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.col-horizontal
+{
+    padding-bottom: 16px;
+    border-bottom: 1px solid #767676;
+}
+
+.col-horizontal:last-child
+{
+    border-bottom: 0;
+}
+
+h3.resume-subtitle
+{
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+
+.col-horizontal .col-item
+{
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+}
+
+.experience-year
+{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.resume-detail h4
+{
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.resume-detail h6
+{
+    font-size: 12px;
+    margin-bottom: 9px;
+    text-transform: capitalize;
+}
+
+.resume-detail p
+{
+    line-height: 22px;
+}
+
+.quote
+{
+    background-image: url("../image/work.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    position: relative;
+    width: 100%;
+}
+
+.quote-inner
+{
+    color: #fff;
+    text-align: center;
+}
+
+.quote-inner h3
+{
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.quote-inner p
+{
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.quote-inner a
+{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 11px;
+    padding: 12px 49px;
+    display: inline-block;
+    margin-top: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.quote-inner a:hover
+{
+    font-size: 16px;
+    transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    -moz-transition: all .4s linear;
+    -ms-transition: all .4s linear;
+    -o-transition: all .4s linear;
+}
