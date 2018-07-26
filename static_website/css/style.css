@@ -346,3 +346,35 @@ h3.resume-subtitle
     -ms-transition: all .4s linear;
     -o-transition: all .4s linear;
 }
+
+.works
+{
+    background-color: #f7f7f7;
+}
+
+.col-work
+{
+    float: left;
+    width: 33.333333333333333%;
+    padding: 0 15px;
+}
+
+.col-work a
+{
+    display: block;
+    margin-bottom: 14px;
+    position: relative;
+    transition: .2s linear;
+    -webkit-transition: .2s linear;
+    -moz-transition: .2s linear;
+    -ms-transition: .2s linear;
+    -o-transition: .2s linear;
+    top: 0;
+    left: 0;
+}
+
+.col-work a:hover
+{
+    box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.4);
+    top: -5px;
+}
